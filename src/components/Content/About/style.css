@@ -1,0 +1,10 @@
+.container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > img:hover {
+  transform: rotate(90deg);
+  transform: scaleY(50px);
+}
